@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", '@nuxtjs/tailwindcss'],
   content: {
       highlight: {
-          theme: 'github-light'
+          theme: 'catppuccin-frappe',
         }
     },
     tailwindcss: {

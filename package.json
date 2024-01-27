@@ -15,5 +15,11 @@
     "nuxt": "^3.9.3",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@catppuccin/tailwindcss": "^0.1.6",
+    "@egoist/tailwindcss-icons": "^1.7.2",
+    "@iconify-json/ri": "^1.1.19",
+    "sass": "^1.70.0"
   }
 }
