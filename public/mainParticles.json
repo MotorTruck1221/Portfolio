@@ -1,4 +1,9 @@
 {
+  "background": {
+    "color": {
+      "value": "#303446d9"
+    }
+  },
   "fullScreen": {
     "enable": true,
     "zIndex": -1
@@ -34,7 +39,8 @@
       "speed": 0.05
     },
     "collisions": {
-      "enable": true
+      "enable": true,
+      "mode": "bounce"
     },
     "number": {
       "value": 25,
@@ -52,7 +58,10 @@
         "value": ["#eebebe", "#85c1dc"]
     },
     "size": {
-      "value": 100
+        "value": {
+            "min": 50,
+            "max": 100
+        }
     },
     "opacity": {
       "value": 0.25
