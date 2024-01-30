@@ -7,7 +7,15 @@ export default defineNuxtConfig({
   content: {
       highlight: {
           theme: 'catppuccin-frappe',
-        }
+        },
+        navigation: {
+            fields: ['title', 'description', 'series' ],
+        },
+        experimental: {
+            search: {
+                indexed: true,
+            },
+        },
     },
     tailwindcss: {
         viewer: true,

@@ -1,4 +1,8 @@
-const { iconsPlugin, getIconCollections } = require("@egoist/tailwindcss-icons")
+const { iconsPlugin, getIconCollections } = require("@egoist/tailwindcss-icons");
+const accent = "pink";
+const linkColor = "sky";
+
+/** @type {import('tailwindcss').Config} */
 module.exports = {
     plugins: [
         require("@catppuccin/tailwindcss")({
@@ -6,7 +10,8 @@ module.exports = {
             defaultFlavour: "frappe",
         }),
         iconsPlugin({
-            collections: getIconCollections(["ri"]),
+            collections: getIconCollections(["ri", "ep"]),
         }),
-  ],
-};
+        require("@tailwindcss/typography"),
+    ],
+}
