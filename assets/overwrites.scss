@@ -1,0 +1,36 @@
+#tsparticles {
+    z-index: -1;
+}
+
+//custom scroll bar
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-cat-base;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-cat-pink rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-cat-sapphire;
+}
+
+::moz-scrollbar {
+    width: 10px;
+}
+
+::moz-scrollbar-track {
+    @apply bg-cat-base;
+}
+
+::moz-scrollbar-thumb {
+    @apply bg-cat-pink rounded-full;
+}
+
+::moz-scrollbar-thumb:hover {
+    @apply bg-cat-sapphire;
+}
