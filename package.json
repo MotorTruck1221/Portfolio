@@ -19,6 +19,9 @@
   "dependencies": {
     "@catppuccin/tailwindcss": "^0.1.6",
     "@egoist/tailwindcss-icons": "^1.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "@iconify-json/ep": "^1.1.14",
     "@iconify-json/ri": "^1.1.19",
     "@tailwindcss/typography": "^0.5.10",

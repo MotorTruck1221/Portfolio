@@ -23,4 +23,14 @@ export default defineNuxtConfig({
     nitro: {
         preset: "static",
     },
+    css: [
+        '@fortawesome/fontawesome-svg-core/styles.css',
+    ],
+    build: {
+        transpile: [
+            "@fortawesome/fontawesome-svg-core",
+            "@fortawesome/free-brands-svg-icons",
+            "@fortawesome/vue-fontawesome",
+        ],
+    },
 })
