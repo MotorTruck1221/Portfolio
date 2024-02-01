@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         viewer: true,
     },
     nitro: {
-        preset: "vercel",
+        preset: "netlify",
     },
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
