@@ -23,6 +23,10 @@ export default defineNuxtConfig({
     nitro: {
         preset: "static",
     },
+    app: {
+        baseURL: "/",
+        buildAssetsDir: "assets",
+    },
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
     ],
