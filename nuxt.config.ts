@@ -21,11 +21,7 @@ export default defineNuxtConfig({
         viewer: true,
     },
     nitro: {
-        preset: "static",
-    },
-    app: {
-        baseURL: "/",
-        buildAssetsDir: "assets",
+        preset: "vercel",
     },
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
