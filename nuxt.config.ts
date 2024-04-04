@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         viewer: true,
     },
     nitro: {
-        preset: "github_pages"
+        preset: "github_pages",
     },
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
