@@ -3,7 +3,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   pages: true,
-  modules: ["@nuxt/content", '@nuxtjs/tailwindcss'],
+  modules: [
+      "@nuxt/content", 
+      '@nuxtjs/tailwindcss',
+      '@nuxtjs/robots',
+      '@nuxtjs/sitemap',
+      'nuxt-schema-org',
+  ],
   content: {
       highlight: {
           theme: 'catppuccin-frappe',
@@ -17,10 +23,21 @@ export default defineNuxtConfig({
             },
         },
     },
+    schemaOrg: {
+        default: false,
+    },
+    site: {
+        trailingSlash: true,
+        name: 'MotorTruck1221',
+    },
     tailwindcss: {
         viewer: true,
     },
     nitro: {
+        prerender: {
+            crawlLinks: true,
+            routes: ['/sitemap.xml'],
+        },
         preset: "github_pages",
     },
     css: [
