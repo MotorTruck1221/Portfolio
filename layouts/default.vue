@@ -2,6 +2,9 @@
     import '~/assets/overwrites.scss';
     useHead({
         titleTemplate: (name) => {return name ? `${name} - MotorTruck1221` : 'MotorTruck1221'},
+        htmlAttrs: {
+            lang: 'en',
+        },
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
