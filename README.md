@@ -1,5 +1,3 @@
-My Personal Website/Blog
-
-https://motortruck1221.com
+My Personal Website/Blog (is-a.dev domain)
 
 https://motortruck1221.is-a.dev
