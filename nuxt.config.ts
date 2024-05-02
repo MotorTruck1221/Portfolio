@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   content: {
       highlight: {
           theme: 'catppuccin-frappe',
+          langs: ['javascript', 'typescript', 'json', 'html', 'css', 'scss', 'xml', 'yaml', 'markdown', 'nginx', 'shell', 'bash', 'dockerfile'],
         },
         navigation: {
             fields: ['title', 'description', 'series' ],
@@ -32,12 +33,6 @@ export default defineNuxtConfig({
     },
     tailwindcss: {
         viewer: true,
-    },
-    content: {
-        highlight: {
-            theme: 'catppuccin-mocha',
-            langs: ['json', 'javascript', 'typescript', 'html', 'css', 'scss', 'bash', 'yaml', 'markdown', 'nginx', 'dockerfile'],
-        },
     },
     nitro: {
         prerender: {

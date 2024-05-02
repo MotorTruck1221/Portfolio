@@ -11,7 +11,7 @@
             <ContentNavigation v-slot="{ navigation }">
                 <div class="h-full w-full flex flex-col flex-wrap justify-left items-top gap-4" v-for="link of navigation" :key="link._path">
                     <NuxtLink v-for="link of link.children" :key="link._path" :to="link._path" 
-                            class="w-full md:w-1/2 h-16 flex flex-col jusitfy-left items-top bg-cat-crust pr-2 pl-2 pt-2 border-2 border-cat-pink hover:border-cat-sapphire transition-all ease-in-out duration-300 hover:scale-105 active:scale-100">
+                            class="w-full md:w-1/2 h-16 flex flex-col jusitfy-left items-top bg-cat-crust pr-2 pl-2 pt-2 border-2 border-cat-pink hover:border-cat-sapphire transition-all ease-in-out duration-300 md:hover:scale-105 active:scale-100 sm:active:scale-95">
                         <h3 class="text-cat-text whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-xl w-full">{{ link.title }}</h3>
                         <p class="text-cat-text opacity-75 whitespace-nowrap text-ellipsis overflow-hidden w-full">{{ link.description || "No Description" }}</p>
                     </NuxtLink>
