@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./BgMdUn8A.js","./CTWC1mf9.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as a}from"./CTWC1mf9.js";const i=["emoji"];async function r(e,o=!0){const{EmojiDrawer:t}=await a(()=>import("./BgMdUn8A.js"),__vite__mapDeps([0,1]),import.meta.url);await e.addShape(i,new t,o)}const _=Object.freeze(Object.defineProperty({__proto__:null,loadEmojiShape:r},Symbol.toStringTag,{value:"Module"}));export{_ as i,i as v};
