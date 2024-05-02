@@ -138,20 +138,20 @@ This configuration is a bit complex, but I'll try to explain it as best as I can
 
 ## How I figured it out
 
-I first started with the config provided by the [TitaniumNetwork Docs](https://docs.titaniumnetwork.org/guides/nginx)
+I first started with the config provided by the [TitaniumNetwork Docs](https://docs.titaniumnetwork.org/guides/nginx).
 Then I started looking at how to get the domain from the request and how to check if it was allowed. 
-I was using normal NGINX, but I quickly realized that I needed to use Lua to get the domain and check if it was allowed.
-I then found the [lua-resty-auto-ssl repo](https://github.com/auto-ssl/lua-resty-auto-ssl/) but quickly realized it was unmaintained and kept searching.
+I was using normal NGINX, but I soon realized that I needed to use Lua to get the domain and check if it was allowed.
+I then found the [lua-resty-auto-ssl repo](https://github.com/auto-ssl/lua-resty-auto-ssl/) but noticed it was unmaintained and kept searching.
 Then I found the [lua-resty-acme repo](https://github.com/fffonion/lua-resty-acme) and started using that.
 The rest was trial and error with a shit ton of Googling.
 
 ## Final thoughts 
 
-This was a rather fun challenge, allowing me to learn crap tons of stuff about how NGINX and OpenResty works and had fun while doing so.
+This was a rather fun challenge, allowing me to learn crap tons of stuff about how NGINX and OpenResty works all while having fun doing so.
 The repo providing a Discord bot, http server, database and this config is located [here](https://github.com/ruby-network/byod-bot)
 
 ## Credits:
 
 - [TitaniumNetwork Docs](https://docs.titaniumnetwork.org) for the base config.
 - The [lua resty acme repo](https://github.com/fffonion/lua-resty-acme) for the auto ssl stuff.
-- The [On Demand TLS feature by Caddy](https://caddyserver.com/docs/automatic-https#on-demand-tls) which this was inspired by.
+- [On Demand TLS feature by Caddy](https://caddyserver.com/docs/automatic-https#on-demand-tls), which was an inspiration for this project.
