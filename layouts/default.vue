@@ -91,7 +91,7 @@
         <Header />
         <div class="flex-1" :class="needBg ? 'bg-cat-base' : ''">
             <client-only>
-                <vue-particles id="tsparticles" url="/mainParticles.json" @particles-loaded="particlesLoaded" />
+                <vue-particles id="tsparticles" class="absolute -z-1" url="/mainParticles.json" @particles-loaded="particlesLoaded" />
             </client-only>
             <main class="h-full w-full">
                 <slot />

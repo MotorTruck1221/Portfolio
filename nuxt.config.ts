@@ -33,6 +33,12 @@ export default defineNuxtConfig({
     tailwindcss: {
         viewer: true,
     },
+    content: {
+        highlight: {
+            theme: 'catppuccin-mocha',
+            langs: ['json', 'javascript', 'typescript', 'html', 'css', 'scss', 'bash', 'yaml', 'markdown', 'nginx', 'dockerfile'],
+        },
+    },
     nitro: {
         prerender: {
             crawlLinks: true,
