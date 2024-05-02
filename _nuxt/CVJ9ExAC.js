@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./MpyA90YK.js","./BB8MzqFE.js","./Cgebt4Ca.js","./CIi3zRdK.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as o}from"./BB8MzqFE.js";class a{constructor(){this.distance=200}load(t){t&&t.distance!==void 0&&(this.distance=t.distance)}}async function c(e,t=!0){await e.addInteractor("externalBounce",async n=>{const{Bouncer:r}=await o(()=>import("./MpyA90YK.js"),__vite__mapDeps([0,1,2,3]),import.meta.url);return new r(n)},t)}export{a as Bounce,c as loadExternalBounceInteraction};
