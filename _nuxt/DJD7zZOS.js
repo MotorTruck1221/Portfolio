@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./DOHFWL-3.js","./Dx-k8cU5.js","./vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as a}from"./Dx-k8cU5.js";async function n(t,o=!0){await t.addInteractor("particlesCollisions",async r=>{const{Collider:i}=await a(()=>import("./DOHFWL-3.js"),__vite__mapDeps([0,1,2]),import.meta.url);return new i(r)},o)}export{n as loadParticlesCollisionsInteraction};

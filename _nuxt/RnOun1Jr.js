@@ -1,2 +1,0 @@
-const __vite__fileDeps=["./Tj4cz3Db.js","./Cgebt4Ca.js","./BB8MzqFE.js","./BWVhpDHp.js","./Dmb2tNh7.js","./vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{s as n}from"./BB8MzqFE.js";async function o(t,r=!0){await t.addInteractor("particlesLinks",async a=>{const{Linker:i}=await n(()=>import("./Tj4cz3Db.js"),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url);return new i(a)},r)}export{o as loadLinksInteraction};

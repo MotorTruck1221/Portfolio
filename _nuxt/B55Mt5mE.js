@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./CxKZegaa.js","./B9um_NUd.js","./Dx-k8cU5.js","./DLCdzuIk.js","./B_8AN6q9.js","./vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as n}from"./Dx-k8cU5.js";async function o(t,r=!0){await t.addInteractor("particlesLinks",async a=>{const{Linker:i}=await n(()=>import("./CxKZegaa.js"),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url);return new i(a)},r)}export{o as loadLinksInteraction};
