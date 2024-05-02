@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./CKsdHMv5.js","./Dc74q3Tx.js","./vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as a}from"./Dc74q3Tx.js";async function n(t,o=!0){await t.addInteractor("particlesCollisions",async r=>{const{Collider:i}=await a(()=>import("./CKsdHMv5.js"),__vite__mapDeps([0,1,2]),import.meta.url);return new i(r)},o)}export{n as loadParticlesCollisionsInteraction};
