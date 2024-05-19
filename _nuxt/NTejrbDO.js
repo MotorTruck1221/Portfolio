@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./-pfwvPrm.js","./BufAp2P3.js","./BPUe1sMc.js","./CIi3zRdK.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{s as o}from"./BufAp2P3.js";class a{constructor(){this.distance=200}load(t){t&&t.distance!==void 0&&(this.distance=t.distance)}}async function c(e,t=!0){await e.addInteractor("externalBounce",async n=>{const{Bouncer:r}=await o(()=>import("./-pfwvPrm.js"),__vite__mapDeps([0,1,2,3]),import.meta.url);return new r(n)},t)}export{a as Bounce,c as loadExternalBounceInteraction};
