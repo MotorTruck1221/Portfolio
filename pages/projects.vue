@@ -28,6 +28,18 @@
                     image="/projectImages/prism.png"
                     link="https://github.com/prismnet"
                 /> 
+                <ProjectCard
+                    title="Create Dreamland App"
+                    description="Easily setup dreamland.js with your favorite tools"
+                    image="https://raw.githubusercontent.com/MotorTruck1221/dreamland-stuff/main/create-dreamland-app/example.gif"
+                    link="https://github.com/motortruck1221/dreamland-stuff/tree/main/create-dreamland-app"
+                />
+                <ProjectCard
+                    title="Vite Plugin Dreamland"
+                    description="A simple plugin for Vite with usage dreamland.js"
+                    image="/projectImages/vdp.png"
+                    link="https://github.com/motortruck1221/dreamland-stuff/tree/main/vite-plugin-dreamland"
+                />
             </div>
             <h1 class="text-4xl font-bold mt-8">Contributions</h1>
             <p class="text-xl mb-8">Projects I've contributed to</p>
