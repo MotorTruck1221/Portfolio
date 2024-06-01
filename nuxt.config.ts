@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     site: {
         trailingSlash: true,
         name: 'MotorTruck1221',
+        url: 'https://motortruck1221.com/' 
     },
     tailwindcss: {
         viewer: true,
@@ -39,7 +40,7 @@ export default defineNuxtConfig({
             crawlLinks: true,
             routes: ['/sitemap.xml'],
         },
-        preset: "github_pages",
+        preset: "node-cluster",
     },
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
