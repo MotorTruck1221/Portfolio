@@ -6,5 +6,4 @@ The website is built using [Nuxt 3](https://v3.nuxtjs.org) and [Tailwind CSS](ht
 
 The website is available at the following URLs:
 
-- https://motortruck1221.is-a.dev (GitHub Pages)
-- https://motortruck1221.com (GitLab Pages)
+- https://motortruck1221.com
