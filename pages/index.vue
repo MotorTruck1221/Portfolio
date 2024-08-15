@@ -6,6 +6,7 @@
 <template>
     <div class="text-cat-text p-4 h-full flex flex-row justify-left items-center gap-8">
         <Bar />
+        <RecentlyListened />
         <div class="flex flex-col justify-left items-left flex-wrap">
             <h1 class="text-xl text-cat-flamingo font-bold"> Wassup, my name is </h1>
             <h1 class="text-4xl font-bold mb-4"> MotorTruck1221 </h1>
