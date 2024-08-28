@@ -48,7 +48,7 @@
                     title="Nebula"
                     description="A stunning and sleek web proxy with support for hundreds of popular sites."
                     image="/projectImages/contribs/nebula.png"
-                    link="https://github.com/nebula-services/nebula"
+                    link="https://github.com/NebulaServices/Nebula"
                 />
                 <ProjectCard
                     title="EmulatorJS Netplay"
