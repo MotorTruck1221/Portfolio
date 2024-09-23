@@ -5,10 +5,10 @@
 </script>
 <template>
     <div class="h-full text-cat-text flex flex-row justify-left items-center gap-8 p-4">
-        <div class="h-full text-cat-text flex flex-col justify-left w-full items-top">
+        <div class="h-full text-cat-text flex flex-col justify-center w-full items-center">
             <h1 class="text-4xl font-bold">Projects</h1>
             <p class="text-xl mb-8">Here are some of my projects</p>
-            <div class="flex flex-row flex-shrink justify-center items-center gap-4 flex-wrap w-full">
+            <div class="flex flex-row flex-shrink justify-center items-center gap-4 flex-wrap w-3/4">
                 <ProjectCard
                     title="Ruby"
                     description="A fast, easy to use, and customizable proxy, designed to act and look like a browser."
