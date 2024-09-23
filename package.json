@@ -24,6 +24,7 @@
     "@egoist/tailwindcss-icons": "^1.8.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@iconify-json/ep": "^1.1.15",
     "@iconify-json/ri": "^1.1.21",

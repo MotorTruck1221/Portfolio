@@ -1,7 +1,9 @@
 ---
-title: "Making a Proxy frontend from scratch (part 1)"
+title: "Making a Proxy frontend from scratch"
 description: "A guide to making a proxy frontend from scratch"
-part: 1
+series:
+    title: Making a Proxy frontend from scratch
+    part: 1
 ---
 
 # Making a proxy frontend from scratch

@@ -2,6 +2,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   pages: true,
+  app: {
+      pageTransition: {
+          name: 'page',
+          mode: 'out-in'
+      }
+  },
 
   runtimeConfig: {
     lastFMKey: process.env.NUXT_LASTFM_KEY,
@@ -82,6 +88,7 @@ export default defineNuxtConfig({
           "@fortawesome/fontawesome-svg-core",
           "@fortawesome/free-brands-svg-icons",
           "@fortawesome/vue-fontawesome",
+          "@fortawesome/free-solid-svg-icons"
       ],
   },
   compatibilityDate: '2024-07-28',

@@ -10,11 +10,16 @@
             <h1 class="text-4xl font-bold">Blog Posts</h1>
             <ContentNavigation v-slot="{ navigation }">
                 <div class="h-full w-full flex flex-col flex-wrap justify-left items-top gap-4" v-for="link of navigation" :key="link._path">
-                    <NuxtLink v-for="link of link.children" :key="link._path" :to="link._path" 
-                            class="w-full md:w-1/2 h-16 flex flex-col jusitfy-left items-top bg-cat-crust pr-2 pl-2 pt-2 border-2 border-cat-pink hover:border-cat-sapphire transition-all ease-in-out duration-300 md:hover:scale-105 active:scale-100 sm:active:scale-95">
-                        <h3 class="text-cat-text whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-xl w-full">{{ link.title }}</h3>
-                        <p class="text-cat-text opacity-75 whitespace-nowrap text-ellipsis overflow-hidden w-full">{{ link.description || "No Description" }}</p>
-                    </NuxtLink>
+                    <div v-for="link of link.children" :key="link._path"
+                            class="w-full h-24 rounded-lg flex flex-row justify-left items-top bg-cat-crust pr-2 pl-2 pt-2 pb-2 border-2 border-cat-pink">
+                        <div class="flex flex-col flex-grow overflow-hidden">
+                            <NuxtLink :to="link._path" class="transition-all duration-300 text-cat-pink active:text-cat-blue md:text-cat-text md:hover:text-cat-pink whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-xl w-full">{{ link.title }} {{ link.series ? `(Part: ${link.series.part})` : null }}</NuxtLink>
+                            <p class="text-cat-text opacity-75 whitespace-nowrap text-ellipsis overflow-hidden w-full">{{ link.description || "No Description" }}</p>
+                        </div>
+                        <NuxtLink class="hidden md:flex transition-all duration-300 hover:bg-cat-pink h-full w-[3.2rem] bg-cat-blue rounded-md text-center flex items-center justify-center text-2xl" :to="link._path">
+                            <font-awesome-icon class="text-cat-crust" :icon="['fas', 'right-long']" />
+                        </NuxtLink>
+                    </div>
                 </div>
             </ContentNavigation>
         </div>
