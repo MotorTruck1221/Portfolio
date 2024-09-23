@@ -4,8 +4,7 @@
     })
 </script>
 <template>
-    <div class="h-full text-cat-text flex flex-row justify-left items-center gap-8 p-4"> 
-        <Bar />
+    <div class="h-full w-full text-cat-text flex flex-row justify-left items-center gap-8 p-4"> 
         <div class="h-full w-full flex flex-col justify-left items-top gap-4">
             <h1 class="text-4xl font-bold">Blog Posts</h1>
             <ContentNavigation v-slot="{ navigation }">

@@ -1,11 +1,10 @@
 <script lang="ts" setup>
     useHead({
         title: 'Projects',
-    })
+    });
 </script>
 <template>
     <div class="h-full text-cat-text flex flex-row justify-left items-center gap-8 p-4">
-        <Bar />
         <div class="h-full text-cat-text flex flex-col justify-left w-full items-top">
             <h1 class="text-4xl font-bold">Projects</h1>
             <p class="text-xl mb-8">Here are some of my projects</p>

@@ -93,7 +93,8 @@
             <client-only>
                 <vue-particles id="tsparticles" class="absolute -z-1" url="/mainParticles.json" @particles-loaded="particlesLoaded" />
             </client-only>
-            <main class="h-full w-full">
+            <main class="h-full w-full flex flex-row pb-4 pt-4">
+                <Bar />
                 <slot />
             </main>
         </div>
