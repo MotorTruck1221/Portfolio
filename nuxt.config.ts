@@ -79,6 +79,7 @@ export default defineNuxtConfig({
   },
   css: [
       '@fortawesome/fontawesome-svg-core/styles.css',
+      'vue-toast-notification/dist/theme-default.css'
   ],
   image: {
       domains: ['lastfm.freetls.fastly.net']

@@ -1,12 +1,21 @@
 <script lang="ts" setup>
+    const { $toast } = useNuxtApp();
+    const url = useRequestURL();
     useHead({
         title: 'Blog',
     })
+    async function rss() {
+        navigator.clipboard.writeText(`${url.origin}/rss.xml`);
+        $toast.info("URL copied to clipboard!");
+    }
 </script>
 <template>
     <div class="h-full w-full text-cat-text flex flex-row justify-left items-center gap-8 p-4"> 
         <div class="h-full w-full flex flex-col justify-left items-top gap-4">
-            <h1 class="text-4xl font-bold">Blog Posts</h1>
+            <div class="flex w-full flex-row justify-between items-center">
+                <h1 class="text-4xl font-bold">Blog Posts</h1>
+                <button><font-awesome-icon class="font-bold text-4xl hover:text-cat-pink active:text-cat-blue transition-all duration-300" @click="rss()" :icon="['fas', 'rss']" /></button>
+            </div>
             <ContentNavigation v-slot="{ navigation }">
                 <div class="h-full w-full flex flex-col flex-wrap justify-left items-top gap-4" v-for="link of navigation" :key="link._path">
                     <div v-for="link of link.children" :key="link._path"
