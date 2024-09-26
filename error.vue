@@ -12,7 +12,7 @@
 <template>
     <div>
         <NuxtLayout>
-            <div class="flex h-full p-4 justify-center items-center">
+            <div class="flex h-full p-4 justify-center items-center w-full">
                 <div class="flex flex-col bg-cat-crust justify-center items-center h-full w-full md:w-1/2 gap-4 overflow-hidden text-wrap break-words opacity-90 rounded-md">
                     <h1 class="text-4xl font-bold text-cat-pink">Error {{ error.statusCode }}</h1>
                     <p class="text-lg text-cat-pink">{{ error.message }}</p>

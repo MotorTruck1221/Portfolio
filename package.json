@@ -33,9 +33,11 @@
     "@tailwindcss/typography": "^0.5.13",
     "@tsparticles/slim": "^3.5.0",
     "@tsparticles/vue3": "^3.0.1",
+    "@types/rss": "^0.0.32",
     "node-cron": "^3.0.3",
     "nuxt-api-shield": "^0.6.7",
     "nuxt-schema-org": "^3.3.8",
+    "rss": "^1.2.2",
     "sass": "^1.77.8",
     "tsparticles": "^3.5.0",
     "zod": "^3.23.8"
