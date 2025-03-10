@@ -1,0 +1,8 @@
+services:
+  portfolio:
+    image: portfolio
+    container_name: portfolio
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8000:3000
