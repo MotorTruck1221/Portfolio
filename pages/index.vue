@@ -14,6 +14,7 @@
                 <NuxtLink to="/projects" class="p-2 text-lg font-semibold border-2 border-cat-flamingo rounded-md hover:bg-cat-flamingo hover:text-cat-base transition-all ease-in-out duration-200"> Projects </NuxtLink>
                 <NuxtLink to="https://github.com/motortruck1221" target="_blank" class="p-2 text-lg font-semibold border-2 border-cat-flamingo rounded-md hover:bg-cat-flamingo hover:text-cat-base transition-all ease-in-out duration-200"> Github </NuxtLink>
                 <NuxtLink to="/blog" class="p-2 text-lg font-semibold border-2 border-cat-flamingo rounded-md hover:bg-cat-flamingo hover:text-cat-base transition-all ease-in-out duration-200"> Blog </NuxtLink>
+                <NuxtLink to="/contact" class="p-2 text-lg font-semibold border-2 border-cat-flamingo rounded-md hover:bg-cat-flamingo hover:text-cat-base transition-all ease-in-out duration-200"> Contact </NuxtLink>
             </div>
         </div>
     </div>

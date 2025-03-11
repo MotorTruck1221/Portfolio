@@ -11,7 +11,7 @@
             <div class="flex flex-row flex-shrink justify-center items-center gap-4 flex-wrap w-3/4">
                 <ProjectCard
                     title="Ruby"
-                    description="A fast, easy to use, and customizable proxy, designed to act and look like a browser."
+                    description="A fast, easy to use proxy that's designed to look & act like a web browser"
                     image="/projectImages/ruby.png"
                     link="https://github.com/ruby-network/ruby"
                 />
