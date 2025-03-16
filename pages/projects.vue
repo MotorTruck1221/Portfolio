@@ -16,6 +16,18 @@
                     link="https://github.com/ruby-network/ruby"
                 />
                 <ProjectCard
+                    title="Incognito"
+                    description="An incredibly easy to deploy, speedy and fast web proxy"
+                    image="/projectImages/incognito.png"
+                    link="https://github.com/titaniumnetwork-dev/incognito"
+                />
+                <ProjectCard
+                    title="Dotfiles"
+                    description="My dotfiles utilizing NixOS"
+                    image="/projectImages/dotfiles.png"
+                    link="https://github.com/motortruck1221/dotfiles"
+                />
+                <ProjectCard
                     title="Flash Player"
                     description="An application that allows you to play flash games and animations."
                     image="/projectImages/flashplayer.png"
