@@ -7,7 +7,7 @@
         <div class="flex flex-row justify-right items-center gap-2 md:gap-4">
             <NuxtLink to="/" :class="route.path === '/' ? 'text-cat-pink' : ''" class="text-md md:text-lg hover:text-cat-sapphire font-semibold">Home</NuxtLink>
             <NuxtLink to="/projects" :class="route.path === '/projects' ? 'text-cat-pink' : ''" class="text-md md:text-lg hover:text-cat-sapphire font-semibold">Projects</NuxtLink>
-            <NuxtLink to="/contact" :class="route.path === '/contact' ? 'text-cat-pink' : ''" class="text-md md:text-lg hover:text-cat-sapphire font-semibold">Contact</NuxtLink>
+            <NuxtLink to="/about" :class="route.path === '/about' ? 'text-cat-pink' : ''" class="text-md md:text-lg hover:text-cat-sapphire font-semibold">About</NuxtLink>
             <NuxtLink to="/blog" :class="route.path === `/blog/${route.params.slug}` ? 'text-cat-pink' : '' || route.path === '/blog' ? 'text-cat-pink' : ''" class="text-md md:text-lg mr-2 hover:text-cat-sapphire font-semibold">Blog</NuxtLink>
         </div>
     </div>

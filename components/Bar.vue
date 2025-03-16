@@ -1,6 +1,5 @@
 <script lang="ts" setup>
     const route = useRoute();
-    import { Icon as Iconify } from "@iconify/vue";
 </script>
 <template>
         <div class="sticky top-[5%] hidden md:flex flex-col h-[90vh] xl:h-[85vh] 2xl:h-[90vh] gap-4 justify-center items-center sticky text-cat-text">
@@ -21,7 +20,7 @@
                 <font-awesome-icon :icon="['fab', 'reddit']" />
             </NuxtLink>
             <NuxtLink to="https://matrix.to/#/@motortruck1221:matrix.org" target="_blank" class="w-20 h-20 flex justify-center items-center text-4xl transition-all ease-in-out duration-300 hover:text-cat-flamingo">
-                <Iconify icon="cib:matrix" :ssr="true" />
+                <NuxtIcon name="cib:matrix" />
             </NuxtLink>
             <NuxtLink to="https://signal.me/#eu/GbgYyXavfhkEN81opgHzlpi3lrpNCxqSkqfdgxCtO196-tlraqRBmbek4AUCv9_M" target="_blank" class="w-20 h-20 flex justify-center items-center text-4xl transition-all ease-in-out duration-300 hover:text-cat-flamingo">
                 <font-awesome-icon :icon="['fab', 'signal-messenger']" />

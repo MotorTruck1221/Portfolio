@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   pages: true,
+
   app: {
       pageTransition: {
           name: 'page',
@@ -21,14 +22,16 @@ export default defineNuxtConfig({
   },
 
   modules: [
-      "@nuxt/content",
       '@nuxtjs/tailwindcss',
       '@nuxtjs/robots',
       '@nuxtjs/sitemap',
       'nuxt-schema-org',
       "@nuxt/image",
-      "nuxt-api-shield"
+      "nuxt-api-shield",
+      "@nuxt/icon",
+      "@nuxt/content"
   ],
+
   nuxtApiShield: {
       limit: {
           max: 12,
@@ -38,32 +41,39 @@ export default defineNuxtConfig({
       delayOnBan: true,
       errorMessage: "Politely, fuck off. Thanks :)",
   },
+
   content: {
-      highlight: {
-          theme: 'catppuccin-frappe',
-          langs: ['javascript', 'typescript', 'json', 'html', 'css', 'scss', 'xml', 'yaml', 'markdown', 'nginx', 'shell', 'bash', 'dockerfile', 'jsonc'],
-        },
-        navigation: {
-            fields: ['title', 'description', 'series' ],
-        },
-        experimental: {
-            search: {
-                indexed: true,
-            },
-        },
+      build: {
+          markdown: {
+            highlight: {
+                theme: 'catppuccin-frappe',
+                langs: ['javascript', 'typescript', 'json', 'html', 'css', 'scss', 'xml', 'yaml', 'markdown', 'nginx', 'shell', 'bash', 'dockerfile', 'jsonc', 'js', 'ts', 'jsx', 'tsx'],
+            }
+          }
+      }
     },
 
   schemaOrg: {
       defaults: false,
   },
+
   site: {
       trailingSlash: true,
       name: 'MotorTruck1221',
       url: 'https://motortruck1221.com/' 
   },
+
+  icon: {
+      componentName: 'NuxtIcon',
+      serverBundle: {
+          collections: ['cib']
+      }
+  },
+
   tailwindcss: {
       viewer: true,
   },
+
   nitro: {
       prerender: {
           crawlLinks: true,
@@ -77,13 +87,12 @@ export default defineNuxtConfig({
           }
       }
   },
+
   css: [
       '@fortawesome/fontawesome-svg-core/styles.css',
       'vue-toast-notification/dist/theme-default.css'
   ],
-  image: {
-      domains: ['lastfm.freetls.fastly.net']
-  },
+
   build: {
       transpile: [
           "@fortawesome/fontawesome-svg-core",
@@ -92,5 +101,6 @@ export default defineNuxtConfig({
           "@fortawesome/free-solid-svg-icons"
       ],
   },
-  compatibilityDate: '2024-07-28',
+
+  compatibilityDate: '2025-03-16',
 })
