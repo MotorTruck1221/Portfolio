@@ -23,13 +23,13 @@
                 />
                 <ProjectCard
                     title="Prism OS"
-                    description="A linux distro that aims to have full compatibility with Windows applications."
+                    description="An in dev Linux OS w/support for Windows apps"
                     image="/projectImages/prism.png"
                     link="https://github.com/prismnet"
                 /> 
                 <ProjectCard
                     title="Create Dreamland App"
-                    description="Easily setup dreamland.js with your favorite tools"
+                    description="Easily setup dreamland.js"
                     image="https://raw.githubusercontent.com/MotorTruck1221/dreamland-stuff/main/create-dreamland-app/example.gif"
                     link="https://github.com/motortruck1221/dreamland-stuff/tree/main/create-dreamland-app"
                 />
